@@ -50,7 +50,7 @@ export default function LoginPage() {
           <input type="submit" value="Login" className="btn" />
         </form>
         <p style={{ fontSize: "15px" }}>
-          Don't have an account?{" "}
+          Dont have an account?{" "}
           <Link href="/account/register">
             <a style={{ textDecoration: "underline" }}>Register</a>
           </Link>
