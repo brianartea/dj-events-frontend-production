@@ -3,7 +3,6 @@ import Link from "next/link";
 import Layout from "@/components/Layout";
 import styles from "@/styles/AuthForm.module.css";
 import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 import { FaUser } from "react-icons/fa";
 import AuthContext from "@/context/AuthContext";
 

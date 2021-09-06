@@ -6,7 +6,6 @@ import { API_URL } from "@/config/index";
 import styles from "@/styles/Form.module.css";
 import Layout from "@/components/Layout";
 import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 
 export default function AddEventPage({ token }) {
   const [values, setValues] = useState({
