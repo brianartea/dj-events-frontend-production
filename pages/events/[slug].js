@@ -7,7 +7,7 @@ import Image from "next/image";
 //import { FaPencilAlt, FaTimes } from "react-icons/fa";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-//import EventMap from "@/components/EventMap";
+import EventMap from "@/components/EventMap";
 
 export default function EventPage({ evt }) {
   const router = useRouter();
@@ -37,7 +37,7 @@ export default function EventPage({ evt }) {
         <h3>Venue: {evt.venue}</h3>
         <p>{evt.address}</p>
 
-        {/* <EventMap evt={evt} /> */}
+        <EventMap evt={evt} />
 
         <Link href="/events">
           <a className={styles.back}>{"<"} Go Back</a>
